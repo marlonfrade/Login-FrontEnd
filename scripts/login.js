@@ -28,7 +28,7 @@ eye2.addEventListener('click', () => {
     if (password.type === "password") {
 
         password.type = "text";
-        password.style.fontSize = "20px";
+        password.style.fontSize = "18px";
         svg_hidden.classList.remove('svg_hidden');
         svg_view.classList.add('svg_hidden');
 
