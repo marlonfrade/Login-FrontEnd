@@ -113,7 +113,7 @@ input:focus {
 #passwordInput::placeholder {
 
     position: static;
-    width: 155px;
+    width: 160px;
     height: 24px;
     left: 16px;
     top: 16px;
@@ -137,7 +137,7 @@ input:focus {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    left: 57%;
+    left: 59%;
     margin-top: 1%;
     margin-bottom: 1%;
     align-items: center;
@@ -191,7 +191,7 @@ input:focus {
 
 
 .forgotPassword {
-    width: 20%;
+    width: 30%;
     margin-top: 1%;
     font-style: normal;
     font-weight: 500;
