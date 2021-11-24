@@ -36,47 +36,133 @@ body {
 .labeltext {
     display: flex;
     flex-direction: row;
-    width: 13%;
+    width: 230px;
     margin-bottom: 2%;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 15px;
     line-height: 20px;
     text-align: center;
     color: rgba(63, 67, 71, 1)
 }
 
+form {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
 .input {
     border: 1px solid red;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 150%;
-    height: 100%;
+    width: 100%;
     margin-bottom: 5%;
-    margin-left: 4%;
 }
 
-#emailInput {
-
+.container .input input {
+    background-color: rgba(245, 247, 250, 1);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 40%;
     height: 56px;
     font-size: 18px;
     font-weight: 400;
     padding-left: 5%;
-    background: #F5F7FA;
     color: rgba(63, 67, 71, 1);
     border-radius: 7px;
     border: none;
+
+}
+
+.container .input input::placeholder {
+    color: rgba(179, 183, 187, 1);
+}
+
+
+
+.name {
+
+    background: url("/images/Icon-16-Letters.svg")no-repeat left;
+    background-size: 20px;
+    background-position-x: 10px;
+    background-position-y: 18px;
+}
+
+
+.profile {
+
+    background: url("/images/Icon-16-Letters.svg")no-repeat left;
+    background-size: 20px;
+    background-position-x: 10px;
+    background-position-y: 18px;
+}
+
+.fitolio {
+
+    background: url("/images/Icon-16-Letters.svg")no-repeat left;
+    background-size: 20px;
+    background-position-x: 10px;
+    background-position-y: 18px;
+}
+
+.interests {
+    background: url("/images/Icon-16-Letters.svg")no-repeat left;
+    background-size: 20px;
+    background-position-x: 10px;
+    background-position-y: 18px;
+}
+
+.experience {
+    background: url("/images/Icon-16-Letters.svg")no-repeat left;
+    background-size: 20px;
+    background-position-x: 10px;
+    background-position-y: 18px;
+}
+
+.languages {
+    background: url("/images/Icon-16-Letters.svg")no-repeat left;
+    background-size: 20px;
+    background-position-x: 10px;
+    background-position-y: 18px;
+}
+
+.social {
+    background: url("/images/Icon-16-Letters.svg")no-repeat left;
+    background-size: 20px;
+    background-position-x: 10px;
+    background-position-y: 18px;
+}
+
+.about {
+    background: url("/images/Icon-16-Letters.svg")no-repeat left;
+    background-size: 20px;
+    background-position-x: 10px;
+    background-position-y: 18px;
+}
+
+.intro {
+    background: url("/images/Icon-16-Letters.svg")no-repeat left;
+    background-size: 20px;
+    background-position-x: 10px;
+    background-position-y: 18px;
+}
+
+.id {
+    background: url("/images/Icon-16-Letters.svg")no-repeat left;
+    background-size: 20px;
+    background-position-x: 10px;
+    background-position-y: 18px;
 }
 
 .email>input:focus,
 input:focus {
-
     box-shadow: 0 0 0 0;
     outline: 0;
 }
@@ -137,7 +223,7 @@ input:focus {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 5% 0%;
+    margin: 0% 0%;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
