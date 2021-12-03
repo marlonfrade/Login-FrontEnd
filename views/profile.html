@@ -1,97 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
 
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Icons -->
-    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
 
     <title>Profile Checklist</title>
-    <link rel="stylesheet" href="/styles/profile.css">
+    <link rel="stylesheet" href="/styles/profile.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <div class="container">
-        <!-- Title -->
-        <div class="title">
-            <p id="title">Profile Checklist</p>
+      <nav>
+        <img src="/images/olions.svg" alt="logo" />
+        <img src="/images/Settings Outlined.svg" alt="settings" />
+      </nav>
+      <!-- Title -->
+      <div class="title">
+        <p id="title">Profile Checklist</p>
+      </div>
+
+      <!-- Icon or Image -->
+      <div class="image">
+        <img id="image" src="/images/BG Icon1.png" alt="profile icon" />
+      </div>
+
+      <!-- Label Text -->
+      <div class="labeltext">
+        <p id="text">
+          Provide all the items in this list so we can review your profile.
+        </p>
+      </div>
+
+      <!-- Form -->
+      <form>
+        <div class="input">
+          <input
+            input
+            class="name"
+            type="text"
+            name="name"
+            placeholder="Full Name"
+            required
+          />
+          <input
+            input
+            class="profile"
+            type="text"
+            name="profile-picture"
+            placeholder="Profile Picture"
+            required
+          />
+        </div>
+        <div class="input">
+          <input
+            input
+            class="fitolio"
+            type="text"
+            name="fitolio"
+            placeholder="Fitolio Handle"
+            required
+          />
+          <input
+            input
+            class="interests"
+            type="text"
+            name=""
+            placeholder="Interests"
+            required
+          />
+        </div>
+        <div class="input">
+          <input
+            input
+            class="experience"
+            type="text"
+            name="experience"
+            placeholder="Experience"
+            required
+          />
+          <input
+            input
+            class="languages"
+            type="text"
+            name="languages"
+            placeholder="Languages"
+            required
+          />
+        </div>
+        <div class="input">
+          <input
+            input
+            class="social"
+            type="text"
+            name="social"
+            placeholder="Social Networks"
+            required
+          />
+          <input
+            input
+            class="about"
+            type="text"
+            name="about"
+            placeholder="About You"
+            required
+          />
+        </div>
+        <div class="input">
+          <input
+            input
+            class="intro"
+            type="text"
+            name="intro"
+            placeholder="Intro Video"
+            required
+          />
+          <input
+            input
+            class="id"
+            type="text"
+            name="id"
+            placeholder="Government ID"
+            required
+          />
         </div>
 
+        <span class="terms"> Pick 10 items to continue</span>
 
-        <!-- Icon or Image -->
-        <div class="image">
-            <img id="image" src="/images/BG Icon1.png" alt="profile icon">
-
+        <div id="myProgress">
+          <div id="myBar">1%</div>
         </div>
 
-        <!-- Label Text -->
-        <div class="labeltext">
-            <p id="text">Provide all the items in this list so we can review your profile.</p>
+        <div class="button">
+          <button id="submitButton" type="button">Send for review</button>
         </div>
-
-
-        <!-- Form -->
-        <form>
-            <div class="input">
-                <input name_input class="name" type="text" name="name" id="input" placeholder="Full Name" required>
-                <input profile_input class="profile" type="text" name="profile-picture" id="input"
-                    placeholder="Profile Picture" required>
-            </div>
-            <div class="input">
-                <input fitolio_input class="fitolio" type="text" name="fitolio" id="input" placeholder="Fitolio Handle"
-                    required>
-                <input interests_input class="interests" type="text" name="interests" id="input" placeholder="Interests"
-                    required>
-            </div>
-            <div class="input">
-                <input experience_input class="experience" type="text" name="experience" id="input"
-                    placeholder="Experience" required>
-                <input languages_input class="languages" type="text" name="languages" id="input" placeholder="Languages"
-                    required>
-            </div>
-            <div class="input">
-                <input social_input class="social" type="text" name="social" id="input" placeholder="Social Networks"
-                    required>
-                <input about_input class="about" type="text" name="about" id="input" placeholder="About You" required>
-            </div>
-            <div class="input">
-                <input intro_input class="intro" type="text" name="intro" id="input" placeholder="Intro Video" required>
-                <input id_input class="id" type="text" name="id" id="input" placeholder="Government ID" required>
-            </div>
-
-            <span class="terms"> Pick 10 items to continue</span>
-
-            <div class="progress-wrap progress" data-progress-percent="25">
-                <div class="progress-bar progress"></div>
-            </div>
-
-            <div class="button">
-                <button id="submitButton" type="button">Send for review</button>
-            </div>
-        </form>
-
+      </form>
     </div>
 
-
-
-
     <script src="/scripts/profile.js"></script>
-</body>
-
+  </body>
 </html>
